@@ -36,7 +36,7 @@ async function displayPokemonList(pokemons) {
       pokemonDiv.classList.add("pokemon");
 
       const nameDiv = document.createElement("div");
-      nameDiv.textContent = pokemon.name;
+      nameDiv.textContent = `Name:${pokemon.name}`;
       pokemonDiv.appendChild(nameDiv);
 
       const abilitiesDiv = document.createElement("div");
